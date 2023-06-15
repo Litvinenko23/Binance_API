@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candlestick Data</title>
+    {{ plot_div|safe }}
+</head>
+<body>
+    <h1>Display Candlestick Data</h1>
+    <form method="POST" action="/">
+        {{ form.csrf_token }}
+        {{ form.symbol.label }} {{ form.symbol }}<br>
+        {{ form.interval.label }} {{ form.interval }}<br>
+        {{ form.submit }}
+    </form>
+</body>
+</html>
