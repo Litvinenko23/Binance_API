@@ -31,4 +31,5 @@ pip install -r requirements.txt
 3. Select a symbol and interval from the dropdown menus and click "Submit" to fetch the candlestick data.
 4. The candlestick data will be saved in a CSV file in the current directory.
 5. A pie chart of market caps for the symbols will be displayed.
+![Screenshot at Jun 15 18-11-27](https://github.com/Litvinenko23/Binance_API/assets/64659599/07752ccf-b158-4455-bd5b-23757176764d)
 
