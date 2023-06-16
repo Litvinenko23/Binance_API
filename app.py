@@ -1,11 +1,11 @@
+import csv
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
-from wtforms import SelectField, SubmitField
-from wtforms.validators import DataRequired
-import requests
-import csv
 import plotly
 import plotly.graph_objs as go
+import requests
+from wtforms import SelectField, SubmitField
+from wtforms.validators import DataRequired
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "your-secret-key"
